@@ -231,7 +231,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b>🍁 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-<b> Size : {file_size}
+<b>🍃 Size : {file_size}
 
 <b>
 ╭─────── • ◆ • ───────╮
@@ -248,7 +248,8 @@ IMDb Data:
  Genres: {genres}
  Year: <a href={url}/releaseinfo>{year}</a>
  Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
- Languages : <code>{languages}</code> RunTime: {runtime} Minutes
+ Languages : <code>{languages}</code> 
+ RunTime: {runtime} Minutes
 
 Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
