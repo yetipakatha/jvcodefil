@@ -237,7 +237,7 @@ Nᴀᴍᴇ - {}"""
 
 IMDb Data:
 
-<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b> Title</b>: <a href={url}>{title}</a>
  Genres: {genres}
  Year: <a href={url}/releaseinfo>{year}</a>
  Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
@@ -724,9 +724,9 @@ special Thanks To  Developer -
 •> /see_caption - see your custom caption
 •> /del_caption - delete custom caption
 
-Example:- /set_caption 📕 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}
+Example:- /set_caption 🍁 File Name: {filename}
+ Size: {filesize}
+ Duration: {duration}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
 
