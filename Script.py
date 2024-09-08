@@ -228,9 +228,16 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """
+<b>🍁 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b> Size : {file_size}
+
+<b>
+╭─────── • ◆ • ───────╮
+ 🍁 𝙢𝙤𝙫𝙞𝙚𝙨 :  <a href="https://t.me/filmy_tube">𝙁𝙞𝙡𝙢𝙮</a>
+╰─────── • ◆ • ───────╯
+</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -242,9 +249,6 @@ IMDb Data:
  Year: <a href={url}/releaseinfo>{year}</a>
  Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
  Languages : <code>{languages}</code> RunTime: {runtime} Minutes
- Release Info : {release_date}
- Countries : <code>{countries}</code>
-
 
 Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
