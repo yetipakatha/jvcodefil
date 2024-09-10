@@ -6,8 +6,9 @@
 class script(object):
     START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, Mʏ Nᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-𝙄 𝙖𝙢 𝙩𝙝𝙚 𝙈𝙤𝙨𝙩 𝙖𝙙𝙫𝙖𝙣𝙘𝙚𝙙 𝙬𝙞𝙩𝙘𝙝 , 𝙬𝙞𝙩𝙝 𝙢𝙤𝙨𝙩 𝙙𝙖𝙣𝙜𝙚𝙧𝙤𝙪𝙨 𝙝𝙞𝙙𝙙𝙚𝙣 𝙥𝙤𝙬𝙚𝙧𝙨 , 𝙟𝙪𝙨𝙩 𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙖𝙣𝙙 𝙨𝙚𝙚 𝙞𝙩 ,
-𝙞𝙛 𝙮𝙤𝙪 𝙖𝙣𝙮 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙠𝙞𝙣𝙙𝙡𝙮 𝙖𝙨𝙠 𝙢𝙮 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙞𝙣 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙜𝙧𝙤𝙪𝙥"""
+‗ ❍ 𝙄 𝙖𝙢 𝙩𝙝𝙚 𝙈𝙤𝙨𝙩 𝙖𝙙𝙫𝙖𝙣𝙘𝙚𝙙 𝙬𝙞𝙩𝙘𝙝 , 𝙬𝙞𝙩𝙝 𝙢𝙤𝙨𝙩 𝙙𝙖𝙣𝙜𝙚𝙧𝙤𝙪𝙨 𝙝𝙞𝙙𝙙𝙚𝙣 𝙥𝙤𝙬𝙚𝙧𝙨 , 
+‗ ❍ 𝙟𝙪𝙨𝙩 𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙖𝙣𝙙 𝙨𝙚𝙚 𝙞𝙩 ,
+‗ ❍ 𝙞𝙛 𝙮𝙤𝙪 𝙖𝙣𝙮 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙠𝙞𝙣𝙙𝙡𝙮 𝙖𝙨𝙠 𝙢𝙮 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙞𝙣 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙜𝙧𝙤𝙪𝙥"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, Mʏ Nᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -22,7 +23,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ‣ Mʏ Cᴏᴍᴘᴀɴɪᴏɴ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
 ‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Soupboy_single'>𝐒𝐕𝐃</a>  
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://t.me/Quin_sarah'>𝗩𝗣𝗦</a> 
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://t.me/we_are_universee'>𝗩𝗣𝗦</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
