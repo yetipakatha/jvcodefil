@@ -4,32 +4,31 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
+    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, Mʏ Nᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-𝙄 𝙖𝙢 𝙩𝙝𝙚 𝙈𝙤𝙨𝙩 𝙖𝙙𝙫𝙖𝙣𝙘𝙚𝙙 𝙬𝙞𝙩𝙘𝙝 , 𝙬𝙞𝙩𝙝 𝙢𝙤𝙨𝙩 𝙙𝙖𝙣𝙜𝙚𝙧𝙤𝙪𝙨 𝙝𝙞𝙙𝙙𝙚𝙣 𝙥𝙤𝙬𝙚𝙧𝙨 , 𝙟𝙪𝙨𝙩 𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙖𝙣𝙙 𝙨𝙚𝙚 𝙞𝙩 , 𝙞𝙛 𝙮𝙤𝙪 𝙖𝙣𝙮 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙠𝙞𝙣𝙙𝙡𝙮 𝙖𝙨𝙠 𝙢𝙮 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙞𝙣 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙜𝙧𝙤𝙪𝙥"""
+𝙄 𝙖𝙢 𝙩𝙝𝙚 𝙈𝙤𝙨𝙩 𝙖𝙙𝙫𝙖𝙣𝙘𝙚𝙙 𝙬𝙞𝙩𝙘𝙝 , 𝙬𝙞𝙩𝙝 𝙢𝙤𝙨𝙩 𝙙𝙖𝙣𝙜𝙚𝙧𝙤𝙪𝙨 𝙝𝙞𝙙𝙙𝙚𝙣 𝙥𝙤𝙬𝙚𝙧𝙨 , 𝙟𝙪𝙨𝙩 𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙖𝙣𝙙 𝙨𝙚𝙚 𝙞𝙩 ,
+𝙞𝙛 𝙮𝙤𝙪 𝙖𝙣𝙮 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙠𝙞𝙣𝙙𝙡𝙮 𝙖𝙨𝙠 𝙢𝙮 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙞𝙣 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙜𝙧𝙤𝙪𝙥"""
 
-    CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
+    CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, Mʏ Nᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
     
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b><blockquote>⍟───[ 𝗠𝘆 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 ]───⍟</blockquote>
+    ABOUT_TXT = """<b><blockquote>⍟───[ Aʙᴏᴜᴛ 𝐒𝐕𝐃 ]───⍟</blockquote>
     
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Quin_sarah'>𝗦𝗔𝗥𝗔𝗛</a> 
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
+‣ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
+‣ Mʏ Cᴏᴍᴘᴀɴɪᴏɴ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Soupboy_single'>𝐒𝐕𝐃</a>  
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
 ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://t.me/Quin_sarah'>𝗩𝗣𝗦</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
-‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+‣ Mʏ Nᴀᴍᴇ : {}
+‣ Mʏ Cᴏᴍᴘᴀɴɪᴏɴ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
 ‣ ᴄʟᴏɴᴇᴅ ғʀᴏᴍ : <a href=https://t.me/{}>{}</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
@@ -111,9 +110,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KingVj01>☢VJ☢</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/Soupboy_single>⦾ SVD ⦾</a></b>
   
- <b>✯ Join here : <a href=https://t.me/vj_bots>☢Join my updateds☢</a></b> 
+ <b>✯ Join here : <a href=hhttps://t.me/we_are_universee>☢Join my updateds☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -207,14 +206,6 @@ Nᴀᴍᴇ - {}"""
 
 🫵 Select Your Language And Earn Money 💰"""
 
-    REQINFO = """
-⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
-
-ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
-
-ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ"""
-
-    SELECT = """sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ, ǫᴜᴀʟɪᴛʏ, sᴇᴀsᴏɴ ᴀɴᴅ ᴇᴘɪsᴏᴅᴇ"""
 
     SINFO = """
 🫣 For Movie Join First Then Click On Try Again Button 😅"""
@@ -229,13 +220,14 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>🍁 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+<b>╰┈➤ Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-<b>🍃 Size : {file_size}
+<b>╰┈➤ Size : {file_size}
 
 <b>
 ╭─────── • ◆ • ───────╮
- 🍁 𝙢𝙤𝙫𝙞𝙚𝙨 :  <a href="https://t.me/filmy_tube">𝙁𝙞𝙡𝙢𝙮</a>
+ 🍁 𝚂𝚅𝙳 𝚂𝚙𝚘𝚝 :  <a href="https://t.meSVDmaniamovies">M𝙤𝙫𝙞𝙚𝙨</a>
+ 🍁   ɢǟʍɛʀ   : <a href="https://t.me/smarhkarts_gAme">gαмєяѕ ωσяℓ∂</a>
 ╰─────── • ◆ • ───────╯
 </b>""" 
 
@@ -328,7 +320,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  </b>""" 
 
     PROGRESS_BAR = """\n
-╭━━━━❰ 𝘂𝗻𝗶𝘃𝗲𝗿𝘀𝗲 Renaming... ❱━➣
+╭━━━━❰... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
