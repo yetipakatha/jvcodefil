@@ -227,7 +227,7 @@ Nᴀᴍᴇ - {}"""
 
 <b>
 ╭─────── • ◆ • ───────╮
- 🍁 𝚂𝚅𝙳 𝚂𝚙𝚘𝚝 :  <a href="https://t.meSVDmaniamovies">M𝙤𝙫𝙞𝙚𝙨</a>
+ 🍁 𝚂𝚅𝙳 𝚂𝚙𝚘𝚝 :  <a href="https://t.me/SVDmaniamovies">M𝙤𝙫𝙞𝙚𝙨</a>
  🍁   ɢǟʍɛʀ   : <a href="https://t.me/smarhkarts_gAme">gαмєяѕ ωσяℓ∂</a>
 ╰─────── • ◆ • ───────╯
 </b>""" 
