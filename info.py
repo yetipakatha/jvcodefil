@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'svdmovie')
 API_ID = int(environ.get('API_ID', '28045580'))
 API_HASH = environ.get('API_HASH', '83001e24418ec7f54bfe95d4e390419f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7010331289:AAEMJKoO2w5Vn4E-kOgcLU4xs06G8g6l96E")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7505385904:AAE04kBF9hntYcG-v2TzCH7DKaAUF1ERKLw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '+ePP_3jNNFEI4ZjY1') # 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/universe_we_are')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/we_are_universee')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/universe_we_are')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'universe_we_are') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SVDmaniamovies') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
