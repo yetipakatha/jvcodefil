@@ -17,7 +17,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'svdmovie')
+SESSION = environ.get('SESSION', 'svdmoviesz')
 API_ID = int(environ.get('API_ID', '28045580'))
 API_HASH = environ.get('API_HASH', '83001e24418ec7f54bfe95d4e390419f')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7505385904:AAE04kBF9hntYcG-v2TzCH7DKaAUF1ERKLw")
